@@ -1,5 +1,5 @@
 # FluentSelenium
-Selenium wrapper using fluent API in C# simplifies the usage of Selenium WebDriver
+A Selenium wrapper using fluent API in C# simplifies the usage of Selenium WebDriver
 
 ```
 Application.FluentSelenium fluentSelenium = new Application.FluentSelenium(false, false);
