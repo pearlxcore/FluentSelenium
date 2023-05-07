@@ -110,8 +110,10 @@ namespace FluentSelenium.Application
 
         public FluentSelenium ClickElement()
         {
-            IJavaScriptExecutor executor = (IJavaScriptExecutor)_driver;
-            executor.ExecuteScript("arguments[0].click();", element);
+            element.Click();
+            // javascript
+            //IJavaScriptExecutor executor = (IJavaScriptExecutor)_driver;
+            //executor.ExecuteScript("arguments[0].click();", element);
             return this;
         }
 
